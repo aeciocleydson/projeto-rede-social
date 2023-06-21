@@ -30,6 +30,10 @@ main{
     background-position: top center;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 #telefone{
     position: absolute;
     top: 50%;
@@ -41,6 +45,7 @@ main{
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 iframe#itela{

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
+#tela  img{
+    display: block;
+    width:239px;
+    height: 1600px;
+    margin: auto;
+}
+
+#tela a{
+width: 100vw;
+display: block;
+padding: 10px;
+background-color: brown;
+color: white;
+text-align: center;
+font-weight: bolder;
+font-size: 1.4em;
+text-decoration: none;
+}
+
+#tela a:hover{
+    background-color: rgb(176, 4, 4);
+    cursor: pointer;
+    text-decoration: underline;
+}
